@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planetas para Eidán</title>
+    <title>Actividades para Eidán</title>
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header/title.css">
+    <link rel="stylesheet" href="css/header/menu.css">
     <link rel="stylesheet" href="css/main/planets.css">
+    <link rel="shortcut icon" href="#">
+
+    <!-- Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     
 </head>
 <body>
 
     <header>
-        <h1 class="header__title">Planetas para Eidán</h1>
+        <h1 class="header__title">PLANETAS PARA EIDÁN</h1>
         <nav class="header__menu">
             <ul class="header__list">
-                <li class="header__list-item"></li>
+                <li class="header__list-item btn"><a href="#">Planetas</a></li>
+                <li class="header__list-item btn"><a href="#">Animales</a></li>
+                <li class="header__list-item btn"><a href="#">Frutas</a></li>
+                <li class="header__list-item btn"><a href="#">Colores</a></li>
             </ul>
         </nav>
     </header>
@@ -29,11 +39,11 @@
         <article class="content">
             <ul class="content__list">
                 <li class="content__list-card">
-                        <img src="assets/mercury-svgrepo-com.svg" alt="Mercury/Mercurio" class="card__planet-img">
-                        <h2 class="card-title">MERCURIO</h2>
+                    <img src="assets/mercury-svgrepo-com.svg" alt="Mercury/Mercurio" class="card__planet-img" data-planet="mercury">
+                    <h2 class="card-title">MERCURIO</h2>
                 </li>
                 <li class="content__list-card">
-                    <img src="assets/venus-svgrepo-com.svg" alt="Venus" class="card__planet-img">
+                    <img src="assets/venus-svgrepo-com.svg" alt="Venus" class="card__planet-img" data-planet="mars">
                     <h2 class="card-title">VENUS</h2>
                 </li>
                 <li class="content__list-card">
@@ -64,5 +74,7 @@
         </article>
         
     </main>
+
+    <script src="js/audio.js"></script>
     
 </body>

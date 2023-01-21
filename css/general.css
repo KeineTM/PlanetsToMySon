@@ -1,5 +1,17 @@
 /* Variables */
+:root {
+    --main-background-color: white;
+    --main-font: 'Montserrat';
+    --font-kalam: 'Kalam';
+    --font-opensans: 'Open Sans';
+
+    --color-title: #006d77;
+    --color-menu: #000;
+    --color-background-menu: #83c5be;
+    
+}
 
 body {
-    background-color: aliceblue;
+    background-color: var(--main-background-color);
+    font-family: var(--main-font);
 }

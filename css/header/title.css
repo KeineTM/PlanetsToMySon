@@ -7,14 +7,17 @@ header {
     width: 19ch;
     margin: 2rem 0;
     border-right: 3px solid;
+    color: var(--color-title);
     font-family: monospace;
     font-size: 5em;
+    text-align: center;
 
     animation: typing 3s steps(19), blink .5s step-end infinite alternate;
     overflow: hidden;
     white-space: nowrap; 
 }
 
+/* Typing animation */
 @keyframes typing {
     from {
         width: 0;
@@ -24,5 +27,18 @@ header {
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+    .header__title {
+        font-size: 2rem;
+    }
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header__title {
+        font-size: 3rem;
     }
 }
