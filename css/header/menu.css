@@ -79,6 +79,10 @@
     border: 1px solid #118ab27c;
 }
 
+.header__menu-list, .btn {
+    min-width: fit-content;
+}
+
 @media (max-width: 767px) {
     .header__list {
         flex-direction: column;
@@ -86,16 +90,18 @@
     }
 
     .btn {
-        min-width: fit-content;
         max-width: 80vw;
     }
     
     .header__list-item {
-        font-size: 20px;
+        font-size: 18px;
         padding: .5rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-
+    .header__list-item {
+        font-size: 20px;
+        padding: .5rem;
+    }
 }
