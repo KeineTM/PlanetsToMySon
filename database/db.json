@@ -1,0 +1,66 @@
+{
+    "planets": [
+        {
+            "name": "Sol",
+            "position": "0",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Mercurio",
+            "position": "1",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Venus",
+            "position": "2",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Tierra",
+            "position": "3",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Marte",
+            "position": "4",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Jupiter",
+            "position": "5",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Saturno",
+            "position": "6",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Urano",
+            "position": "7",
+            "imgUrl": "",
+            "sfxUrl": ""
+        },
+        {
+            "name": "Neptuno",
+            "position": "8",
+            "imgUrl": "",
+            "sfxUrl": ""
+        }
+    ],
+    "animals": [
+        {
+            "name": "Vaca",
+            "eco": "Granja",
+            "imgUrl": "",
+            "sfxUrl": ""
+        }
+    ]
+}

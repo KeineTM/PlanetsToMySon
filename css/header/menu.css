@@ -1,18 +1,22 @@
-.header__list {
+.header__menu-list {
     display: flex;
     justify-content: space-between;
+    color: var(--color-title);
+}
+
+.menu-option {
+    position: relative;
 }
 
 .btn {
     position: relative;
-    font-size: 28px;
     text-align: center;
+    font-size: 28px;
     line-height: 44px;
     width: 100%;
     padding: 1rem;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
+    transition: all 0.5s;
+}
   
 .btn::before, .btn::after {
     content: '';
@@ -35,7 +39,7 @@
 }
 
 .header__list-item::after {
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
   
 .header__list-item:hover::after {
