@@ -9,8 +9,19 @@ const hide = (element) => element.classList.add('hide')
 
 const show = (element) => element.classList.remove('hide');
 
+const next = () => {
+    if(planets[i].nextElementSibling) {
+        hide(planets[i]);
+        i++;
+        show(planets[i])
+    } else {
+        hide(planets[i]);
+        i = 0;
+        show(planets[i])
+    }
+};
+
 const move = (x) => {
-    console.log(i)
     if(i+x >= 0 && i+x < planets.length) { // If the index is within the boundaries of array
         hide(planets[i]); // Hide the actual element
         i+=x; // Count +1 or -1
@@ -24,12 +35,11 @@ const move = (x) => {
         i = planets.length-1; // Reset to max
         show(planets[i]);
     }
-    
 }
 
 //------------------------------------------------------------------------------------------
 // Event Listener when click container
-//container.addEventListener('click', goNext);
+container.addEventListener('click', next);
 
 // Event Listener when press arrow keys on window
 window.addEventListener('keydown', (event) => {
